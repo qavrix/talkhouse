@@ -1,8 +1,6 @@
 # talkhouse
 WebRTC based peer to peer video calling and messaging web app build with MERN stack.
 
-# [Demo](https://talkhouse-tv.netlify.app/)
-
 # Libraries used
 
 - **`React`** for frontend
