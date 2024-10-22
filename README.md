@@ -91,3 +91,4 @@ docker-compose up --build
 - [ ]  Implement confirm email, reset password and email sending on friend invitation, *Not a big deal to implement, just a little lazy to implement it*
 - [ ]  Store messages in an encrypted form in the database. (Just wrote it for fun. I mean is it even worth to do it 🤦‍♂️)
 - [x]  Enhace the UI. I hate CSS, not that good at it 🥱😓 . (Looks reasonably good now)
+
