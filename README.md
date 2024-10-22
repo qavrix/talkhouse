@@ -93,3 +93,5 @@ docker-compose up --build
 - [x]  Enhace the UI. I hate CSS, not that good at it 🥱😓 . (Looks reasonably good now)
 
 
+
+
