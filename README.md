@@ -37,44 +37,6 @@ The **talkhouse spaces** are implemented using MESH topology to establish a peer
 i.e, every person maintains a p2p connection with every other person in the room. 
 
 
-# Installation
-
-1. Clone project
-
-```
-git clone git@github.com:saalikmubeen/talkhouse.git
-```
-
-## Manual
-
-If you dont't have docker installed, or don't know how to docker, [who doesn't know docker in the first place 😑]
-
-cd into root project
-
-```
-1. cd server
-```
-
-`npm install` to to install server dependencies
-
-`Setup required environment variables:` 
- 
-- MONGO_URI_DEV
-- JWT_SECRET
-
-`npm run dev` to start development server with nodemon
-
-*Make sure you have mongoDB installed*
-
-```
-1. cd client
-```
-
-`npm install` installs client dependencies.
-
-`npm run start` to start the react development server.
-
-
 ## Docker
 
 Running project through docker is recommended. You don't have to do any setup. Just one docker-compose command and boom project is up and running 😊 
@@ -84,11 +46,3 @@ docker-compose up --build
 
 ```
 *Make sure you have docker installed*
-
- # TODOS
-
-- [x]  Enable group video and messaging functionality
-- [ ]  Implement confirm email, reset password and email sending on friend invitation, *Not a big deal to implement, just a little lazy to implement it*
-- [ ]  Store messages in an encrypted form in the database. (Just wrote it for fun. I mean is it even worth to do it 🤦‍♂️)
-- [x]  Enhace the UI. I hate CSS, not that good at it 🥱😓 . (Looks reasonably good now)
-
